@@ -1,0 +1,1615 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+h4 {
+    cursor: pointer;
+}
+
+p {
+    cursor: pointer;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 1277px;
+    width: 100%;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.upper_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 31.7px;
+}
+
+.upper_line {
+    display: block;
+    max-width: 100%;
+    border: 1px solid #FAFAFB;
+
+}
+
+.upper_detailsleft {
+    display: flex;
+    align-items: center;
+    gap: 13.15px;
+}
+
+.upper_detailsleft {
+    display: flex;
+    align-items: center;
+}
+
+
+.upper_time {
+    display: none;
+}
+
+.upper_detailsryt {
+    display: flex;
+    align-items: center;
+    font-family: 'proxima-nova', sans-serif;
+
+}
+
+.upper_profilelogo {
+    display: flex;
+    align-items: center;
+}
+
+.upper_profile {
+    padding-left: 6.53px;
+}
+
+.upper_items {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding-left: 19.44px;
+}
+
+.items {
+    display: flex;
+    font-weight: 400;
+    font-size: 20px;
+    color: #262626;
+    line-height: 24.36px;
+}
+
+.items_price {
+    display: flex;
+    font-weight: 400;
+    font-size: 20px;
+    color: #262626;
+    line-height: 24.36px;
+    opacity: 50%;
+}
+
+.upper_cart {
+    padding-left: 26px;
+}
+
+.upper_search {
+    padding-left: 8.56px;
+}
+
+.lang_eng {
+    display: flex;
+    align-items: center;
+    gap: 4.9px;
+}
+
+.upper_usd {
+    display: flex;
+    align-items: center;
+    gap: 4.9px;
+}
+
+.details {
+    font-family: 'proxima-nova', sans-serif;
+    display: flex;
+    font-weight: 400;
+    font-size: 20px;
+    color: #262626;
+    line-height: 24.36px;
+}
+
+.upper_profile {
+    display: flex;
+    font-weight: 400;
+    font-size: 20px;
+    color: #262626;
+    line-height: 24.36px;
+}
+
+.res-upperryt {
+    display: none;
+}
+
+.lower_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25.76px;
+}
+
+.lower_leftdetails {
+    display: flex;
+    align-items: center;
+    gap: 6.32px;
+}
+
+.lower_rytdetails {
+    max-width: 835.49px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 97.87px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #262626;
+}
+
+.ecomm {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #22262A;
+}
+
+.lower_rytinputs {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #262626;
+    border-bottom: 3px solid #FFFFFF;
+}
+
+.lower_rytinputs:hover {
+    color: #33A0FF;
+    border-bottom: 3px solid #33A0FF;
+}
+
+#home {
+    color: #33A0FF;
+}
+
+.small_heading {
+    margin-top: 34.26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F6F7F8;
+    padding: 14.5px 0;
+    gap: 8px;
+    transform: translate(-44px, 0);
+}
+
+.small_head {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'proxima-nova', sans-serif;
+}
+
+.slace {
+    color: #C1C8CE;
+}
+
+.res_nikeheader {
+    display: none;
+}
+
+/* section1 */
+
+.main_flex {
+    display: flex;
+    align-items: center;
+    /* padding-top: 42.28px; */
+    /* max-width: 926.18px; */
+    width: 100%;
+}
+
+.hero-imgtext {
+    display: none;
+}
+
+.res_heroimg {
+    display: none;
+}
+
+.shoes_img {
+    margin-top: 42.28px;
+}
+
+.four_shoe {
+    display: flex;
+    margin-top: 134.84px;
+    gap: 15.20px;
+
+}
+
+.small_shoe {
+    max-width: 85px;
+    width: 100%;
+}
+
+.small_shoe:hover {
+    border: 2px solid #006CFF;
+    border-radius: 10px;
+}
+
+.nike_text {
+    display: flex;
+    margin-top: 40.15px;
+    margin-bottom: 22.41px;
+}
+
+.text_flex {
+    margin-left: 35px;
+    width: 100%;
+    margin-right: 35px;
+}
+
+.nike_air {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #22262A;
+}
+
+.text_rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18.53px;
+}
+
+.review {
+    margin-left: 17.7px;
+    margin-right: 16.7px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.49px;
+    color: #C1C8CE;
+}
+
+.vertical_line {
+    display: block;
+    max-width: 499.49px;
+    width: 100%;
+    border: 2px solid #F6F7F8;
+}
+
+.slide-bar {
+    display: none;
+}
+
+.hero-rate {
+    display: none;
+}
+
+.hero-price {
+    display: none;
+}
+
+.nike_price {
+    display: flex;
+    align-items: center;
+    margin-top: 16.99px;
+    margin-bottom: 17.82px;
+}
+
+.price_down {
+    display: flex;
+    padding-left: 9.14px;
+    gap: 8px;
+
+}
+
+.price_new {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #40BFFF;
+}
+
+.price_old {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    color: #9098B1;
+    text-decoration: line-through;
+}
+
+.price_off {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    color: #FB7181;
+}
+
+.nike_avail {
+    display: flex;
+    gap: 69.72px;
+    margin-bottom: 6.81px;
+}
+
+.nike_cat {
+    display: flex;
+    gap: 69.72px;
+}
+
+.available {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 15.95px;
+}
+
+.click_color {
+    display: flex;
+    align-items: center;
+    gap: 43.14px;
+    margin-top: 24.46px;
+}
+
+.color_select {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.colorr_picker {
+    display: flex;
+    align-items: center;
+    gap: 21.77px;
+}
+
+.colorr_picker input {
+    display: none;
+}
+
+.color_lebal {
+    height: 21px;
+    width: 21px;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.color_input:checked+label {
+    width: 20px;
+    height: 20px;
+    border: 3px solid white;
+    outline: 2px solid #bfdaff;
+}
+
+
+.color1 {
+    background-color: #006CFF;
+
+}
+
+.color2 {
+    background-color: #FC3E39;
+}
+
+.color3 {
+    background-color: #171717;
+}
+
+.color4 {
+    background-color: #FFF600;
+}
+
+.resclick_color {
+    display: none;
+}
+
+.size_select {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.res-slect-size {
+    display: none;
+}
+
+.size-round {
+    display: none;
+}
+
+.Spec-text {
+    display: none;
+}
+
+.style-wrapper {
+    display: none;
+}
+
+.size_btn {
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.05px;
+}
+
+.shoe_size {
+    display: flex;
+    align-items: center;
+    gap: 98.36px;
+    margin: 21.27px 0;
+}
+
+.btn_space {
+    display: flex;
+    border: 2px solid #F1F3F4;
+    padding: 10.63px 16.11px 11.7px 16.11px;
+    gap: 64.66px;
+    border-radius: 5px;
+}
+
+.details_cart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart_num {
+    border: 2px solid black;
+    padding: 12.76px 16px 15.95px 18px;
+    border: none;
+    background-color: #F6F7F8;
+}
+
+.card_wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 10.2px;
+    gap: 150.91px;
+    margin-bottom: 10.2px;
+}
+
+.add_tocart {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.cart_btn {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    background-color: #eff8ff;
+    gap: 15.46px;
+    max-width: 159.41px;
+    width: 100%;
+    border: none;
+}
+
+.cart_text {
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.49px;
+    color: #33A0FF;
+    padding: 14.35px 15.67px 16.48px 0px;
+}
+
+.add_cart {
+    padding-left: 21.25px;
+}
+
+.best_product {
+    margin-top: 44.94px;
+}
+
+.best_seller {
+    display: flex;
+}
+
+.best_img {
+    border: 3px solid #F6F7F8;
+    border-radius: 5px;
+    display:inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mySwiper4 {
+    display: inline-block;
+}
+.mySwiper4 .swiper-wrapper .swiper-slide{
+    width: auto;
+}
+.best_text {
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.92px;
+    color: #C1C8CE;
+    margin-bottom: 34.98px;
+}
+
+.ratestar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 52.59px;
+    margin-bottom: 11.96px;
+}
+
+.bestsell_price {
+    display: flex;
+    margin-bottom: 34.03px;
+    gap: 11.42px;
+}
+
+.best_price {
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.49px;
+    color: #FF4858;
+}
+
+.best_oldprice {
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.49px;
+    color: #C1C8CE;
+    text-decoration: line-through;
+}
+
+.best_line {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    margin-top: 21.27px;
+    gap: 5.31px;
+    justify-content: center;
+
+}
+
+.horiz_line {
+    width: 31.88px;
+    height: 3.19px;
+    background-color: #F1F3F4;
+}
+
+.fb_btn {
+    display: flex;
+    align-items: center;
+    gap: 10.63px;
+    margin-top: 20.2px;
+}
+
+.facebook {
+    display: flex;
+    padding: 13.96px 29.99px 16.88px 34.38px;
+    max-width: 244.43px;
+    width: 100%;
+    background-color: #385C8E;
+    gap: 12.32px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    align-items: center;
+}
+
+/* .twitter {
+    display: flex;
+    padding: 13.96px 29.99px 16.88px 34.38px;
+    max-width: 244.43px;
+    width: 100%;
+    background-color: #03A9F4;
+    gap: 12.32px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    align-items: center;
+} */
+
+#twitter {
+    background-color: #03A9F4;
+
+}
+
+.information {
+    max-width: 924.58px;
+    width: 100%;
+    background-color: #FAFAFB;
+    padding-top: 34.29px;
+    margin-bottom: 50px;
+    margin-top: 48.91px;
+}
+
+.prod_info {
+    display: flex;
+    gap: 78.93px;
+    border-bottom: 4.25px solid #E5E8EA;
+}
+
+.product {
+    padding-bottom: 27.58px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    border-bottom: 4.25px solid transparent;
+    cursor: pointer;
+}
+
+#products {
+    margin-left: 31px;
+}
+
+
+
+.zero {
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.49px;
+    opacity: 25%;
+}
+
+.product:hover {
+    color: #2E90E5;
+    border-color: #2E90E5;
+    margin-bottom: -4px;
+}
+
+.para {
+    padding: 21px 133.44px 44.4px 30.95px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.paragraph {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21.6px;
+    letter-spacing: 0.5px;
+    color: #9098B1;
+}
+
+.related {
+    display: flex;
+    margin-top: 77.50PX;
+    justify-content: center;
+    margin-bottom: 83.76px;
+}
+
+.rel_prod {
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 52.5px;
+    color: #22262A;
+}
+
+.nike-paragraph {
+    display: none;
+}
+
+.related_imgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 33px;
+    margin-bottom: 86.26px;
+}
+
+.nike_airpro {
+    display: block;
+    position: relative;
+    border: 3px solid #F6F7F8;
+    text-align: center;
+    padding-bottom: 18px;
+    border-radius: 10px;
+}
+
+.nike_airpro img {
+    width: 100%;
+}
+
+.hot {
+    position: absolute;
+    top: 0px;
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.92px;
+    background-color: #FF4858;
+    color: #FFFFFF;
+    padding: 5px 14.18px 6px 12.82px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nike_details {
+    display: flex;
+    flex-direction: column;
+}
+
+.nikeflex_price {
+    display: flex;
+}
+
+.nike_react {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0.5px;
+    color: #223263;
+    margin-top: 9.55px;
+    margin-bottom: 6.31px;
+}
+
+.nike_rate {
+    max-width: 123.6px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 6.31px;
+}
+
+.offer_price {
+    font-family: "Poppins", sans-serif;
+    color: #40BFFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32.4px;
+    letter-spacing: 0.5px;
+
+}
+
+.nikeflex_price {
+    display: flex;
+    gap: 13.14px;
+    justify-content: center;
+    align-items: center;
+}
+
+.price_offers {
+    display: flex;
+    gap: 8px;
+}
+
+.high_price {
+    font-family: "Poppins", sans-serif;
+    color: #9098B1;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    text-decoration: line-through;
+}
+
+.offer_off {
+    font-family: "Poppins", sans-serif;
+    color: #FB7181;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+
+}
+
+/* footer */
+.container-io1 {
+    max-width: 1232.89px;
+    width: 100%;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.section-footer {
+    background-color: #BCDDFE;
+    margin-top: 86.26px;
+}
+
+.footer-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-main-one {
+    display: flex;
+    max-width: 1064.83px;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 154.62px;
+    margin-bottom: 63.67px;
+}
+
+.img_text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    gap: 8px;
+}
+
+.follow_text {
+    padding-bottom: 19.5px;
+}
+
+.contact_text {
+    padding-bottom: 19.27px;
+}
+
+.ecom_text {
+    font-family: "Poppins", sans-serif;
+}
+
+.lorem_para {
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.62px;
+
+}
+
+.lorem-para {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+
+}
+
+.footer_main1 {
+    max-width: 221.1px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_main2 {
+    max-width: 198px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.footer_main3 {
+    max-width: 148.11px;
+    width: 100%;
+    padding-top: 10px;
+
+}
+
+.footer_logo {
+    display: flex;
+    gap: 39.29px;
+    margin-top: 24.5px;
+}
+
+.footer-main-two {
+    display: flex;
+    max-width: 1200.89px;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 63.67px;
+    margin-bottom: 68.13px;
+}
+
+.main-footer-one {
+    max-width: 152px;
+    width: 100%;
+}
+
+.main-footer-four {
+    max-width: 152px;
+    width: 100%;
+}
+
+.info {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+
+}
+
+.footer-info-ser {
+    margin-bottom: 25.70px;
+}
+
+.service {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+
+}
+
+.footer-info-acc {
+    margin-bottom: 19px;
+}
+
+.my-acc {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+
+}
+
+.footer-info-offer {
+    margin-bottom: 19px;
+}
+
+.offer-info {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+}
+
+.footer-info {
+    padding-bottom: 29.98px;
+}
+
+.info-para {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+
+}
+
+.footer-main-three {
+    border-top: 3px solid #FFFFFF;
+    margin-bottom: 59.78px;
+}
+
+.bottom-data {
+    margin-top: 68.13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-cards {
+    display: flex;
+    gap: 20px;
+}
+
+.shape {
+    display: flex;
+    position: relative;
+}
+
+.visa-text {
+    position: absolute;
+    left: 5px;
+    top: 7px;
+}
+
+.ecomerse {
+    font-family: 'proxima-nova', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.05px;
+    color: #C1C8CE;
+}
+
+.review-product {
+    display: none;
+}
+
+.swiper-heading {
+    display: none;
+}
+
+.res-nike-footer {
+    display: none;
+}
+
+.footer-button {
+    display: none;
+}
+
+/* media quairy */
+
+@media only screen and (max-width: 768px) {
+
+    .upper_header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 0;
+    }
+
+    .upper_detailsleft {
+        display: none;
+    }
+
+    .upper_time {
+        display: flex;
+        margin-top: 12px;
+        margin-bottom: 11px;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 17.9px;
+        letter-spacing: -0.02em;
+        text-align: center;
+
+    }
+
+    .upper_detailsryt {
+        display: none;
+    }
+
+    .res-upperryt {
+        display: flex;
+        gap: 5.03px;
+    }
+
+    .upper_line {
+        display: none;
+    }
+
+    .lower_header {
+        display: none;
+    }
+
+    .small_heading {
+        display: none;
+    }
+
+    .res_nikeheader {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        text-align: left;
+        margin-top: 26px;
+        margin-bottom: 28px;
+
+    }
+
+    .res_more {
+        display: flex;
+        gap: 16px;
+    }
+
+    .shoe_img {
+        display: none;
+    }
+
+    .res_heroimg {
+        display: block;
+        margin-bottom: 16px;
+        justify-content: center;
+    }
+
+    .hero-imgtext {
+        display: flex;
+        gap: 44px;
+        margin-top: 16px;
+        margin-bottom: 8px;
+    }
+
+    .hero-text {
+        font-family: "Poppins", sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.5px;
+        margin-bottom: 8px;
+    }
+
+
+
+    .slide-bar {
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .hero-price {
+        display: block;
+        font-family: "Poppins", sans-serif;
+        color: #40BFFF;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.5px;
+        margin-top: 16px;
+    }
+
+    .hero-rate {
+        display: block;
+    }
+
+    .four_shoe {
+        display: none;
+    }
+
+    .text_flex {
+        display: none;
+    }
+
+    .fb_btn {
+        display: none;
+    }
+
+    .best_product {
+        display: none;
+    }
+
+    .information {
+        display: none;
+    }
+
+    .section-footer {
+        display: none;
+    }
+
+    .related {
+        display: none;
+    }
+
+    .nike_airpro {
+        display: none;
+    }
+
+    .hero-imgtext {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .res-slect-size {
+        display: block;
+        margin-top: 24px;
+        margin-bottom: 12px;
+    }
+
+    .size-selector {
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0.5px;
+
+    }
+
+    .size-round {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .circle {
+        border: 1px solid #EBF0FF;
+        border-radius: 50%;
+        padding: 10px 15px;
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0.5px;
+        text-align: center;
+
+    }
+
+    .circle:hover {
+        border-color: #40BFFF;
+    }
+
+    .circle2 {
+        border: 1px solid #EBF0FF;
+        border-radius: 50%;
+        padding: 10px 10px;
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0.5px;
+        text-align: center;
+    }
+
+    .circle2:hover {
+        border-color: #40BFFF;
+    }
+
+    .resclick_color {
+        display: block;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+    .rescolor_select {
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0.5px;
+
+    }
+
+    .rescolorr_picker {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        margin-top: 12px;
+    }
+
+    .rescolorr_picker input {
+        display: none;
+    }
+
+    .color_lebal {
+        height: 48px;
+        min-width: 48px;
+        background-color: gray;
+        border-radius: 50%;
+    }
+    .rescolorr_picker label{
+        height: 48px;
+        width: 48px;
+        outline: none;
+    }
+
+    .rescolorr_picker input:checked+label {
+        width: 48px;
+        height: 48px;
+        border: 16px solid #FFC833;
+        background-color: white;
+        outline: none;
+    }
+
+
+    .color1 {
+        background-color: #FFC833;
+
+    }
+
+    .color2 {
+        background-color: #40BFFF;
+    }
+
+    .color3 {
+        background-color: #FB7181;
+    }
+
+    .color4 {
+        background-color: #53D1B6;
+    }
+
+    .color5 {
+        background-color: #5C61F4;
+    }
+
+    .color6 {
+        background-color: #223263;
+    }
+
+    .Shown {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        gap: 127px;
+        margin-top: 12px;
+    }
+
+    .Shown-text {
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 21.6px;
+        letter-spacing: 0.5px;
+
+    }
+
+    .laser-blue {
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 21.6px;
+        letter-spacing: 0.5px;
+        color: #9098B1;
+        text-align: end;
+    }
+
+    .Spec-text {
+        display: block;
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0.5px;
+
+    }
+
+    .style-wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 16px;
+    }
+
+    .style-text {
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 21.6px;
+        letter-spacing: 0.5px;
+    }
+
+    .style-end {
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 21.6px;
+        letter-spacing: 0.5px;
+        color: #9098B1;
+    }
+
+    .nike-paragraph {
+        display: block;
+        margin-top: 16px;
+        margin-bottom: 24px;
+    }
+
+    .nike-para {
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 21.6px;
+        letter-spacing: 0.5px;
+        color: #9098B1;
+    }
+
+    .review-product {
+        display: block;
+    }
+
+    .review-prod {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 8px;
+    }
+
+    .review-text {
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0.5px;
+        color: #223263;
+    }
+
+    .review-seemore {
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0.5px;
+        color: #40BFFF;
+    }
+
+    .review-ratting {
+        display: flex;
+        text-align: center;
+        gap: 8px;
+    }
+
+    .review-ratetext {
+        display: flex;
+        text-align: center;
+        gap: 3px;
+    }
+
+    .review-rate-detail {
+        font-family: "Poppins", sans-serif;
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 15px;
+        letter-spacing: 0.5px;
+        color: #9098B1;
+    }
+
+    .review-rate-star {
+        font-family: "Poppins", sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0.5px;
+        text-align: left;
+        color: #9098B1;
+    }
+
+    .profile_picture {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        margin-top: 16px;
+    }
+
+    .profile-name {
+        margin-bottom: 4px;
+    }
+
+    .profile-para {
+        margin-block: 16px 16px;
+    }
+
+    .profile-text {
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 21.6px;
+        letter-spacing: 0.5px;
+        color: #9098B1;
+    }
+
+    .div-smallshoe {
+        display: flex;
+        gap: 12px;
+        margin-bottom: 16px;
+    }
+
+    .res-shoeimg:hover {
+        border: 2px solid #006CFF;
+        border-radius: 10px;
+    }
+
+    .date-time {
+        font-family: "Poppins", sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0.5px;
+        color: #9098B1;
+    }
+
+    .swiper-heading {
+        display: block;
+        margin-block: 23px 12px;
+    }
+
+    .might-text {
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0.005em;
+        font-family: "Poppins", sans-serif;
+        color: #223263;
+    }
+
+    .res-grid {
+        display: flex;
+    }
+
+    .res-nike-footer {
+        display: block;
+        padding: 16px;
+        border: 1px solid #EBF0FF;
+        max-width: 141px;
+        width: 100%;
+    }
+
+    .fs-nike {
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 0.5px;
+        color: #223263;
+    }
+
+    .fs-nike-price {
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 21.6px;
+        letter-spacing: 0.5px;
+        color: #40BFFF;
+    }
+
+    .fs-nike-offer {
+        display: flex;
+        gap: 8px;
+    }
+
+    .fs-old-price {
+        font-family: "Poppins", sans-serif;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0.5px;
+        color: #9098B1;
+        text-decoration: line-through;
+    }
+
+    .fs-off {
+        font-family: "Poppins", sans-serif;
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 15px;
+        letter-spacing: 0.5px;
+        color: #FB7181;
+    }
+
+    .footer-button {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin: 21px 0 16px 0;
+        
+    }
+
+    .add-to-cart {
+        color: #FFFFFF;
+        max-width: 343px;
+        width: 100%;
+        padding: 16px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 25.2px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        background-color: #40BFFF;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .footer-endline {
+        max-width: 134px;
+        display: inline-block;
+        width: 100%;
+        height: 5px;
+        background-color: #9098B1;
+        margin-top: 21px;
+        margin-bottom: 8px;
+        border-radius: 100px;
+        opacity: 50%;
+    }
+}

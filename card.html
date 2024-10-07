@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+    
+    </style>
+</head>
+<body id="body">
+
+
+
+    <script>
+        const body = document.getElementById('body')
+        console.log(body);
+        const card = document.createElement('div')
+        card.style.width="400px";
+        card.style.height="500px";
+        // card.style.backgroundColor="red";
+        // card.style.border="2px solid black"
+        card.style.borderRadius="20px"
+        card.style.margin="0 auto"
+        card.style.textAlign="center"
+        card.style.boxShadow = "0px 0px 72px 20px rgba(252, 207, 43, 0.5), 0px 22px 35px 3px rgba(252, 207, 43, 0.4), 0px 10px 10px -4px rgba(252, 207, 43, 0.5)";
+        body.appendChild(card);
+
+
+        const image = document.createElement('img')
+        image.setAttribute("src","./assets/image/c-d-x-PDX_a_82obo-unsplash.jpg")
+        image.style.maxWidth="400px"
+        image.style.borderRadius="18px 18px 0 0"
+        card.appendChild(image)
+
+        const heading = document.createElement('h3')
+        heading.innerText="Zebronics Headphones"
+        heading.style.fontSize ="28px"
+        heading.style.fontWeight ="900"
+        heading.style.color="transparent"
+        heading.style.background="radial-gradient(926px at 2.7% 11%, rgb(17, 29, 94) 0%, rgb(178, 31, 102) 90%)"
+        heading.style.backgroundClip="text"
+        // heading.style.fontFamily = "'Sofadi One', 'system-ui'";
+        heading.style.fontFamily = "'Courier New', 'system-ui'";
+        card.appendChild(heading)
+
+
+        const para = document.createElement('p')
+        para.innerText="Good build quality, Good bass and Volume, Top sound quality, Budget friendly"
+        para.style.fontSize ="18px"
+        para.style.fontWeight ="600"
+        para.style.color ="transparent"
+        para.style.background="linear-gradient(98.3deg, rgb(0, 0, 0) 10.6%, rgb(255, 0, 0) 97.7%)"
+        para.style.backgroundClip="text"
+        // para.style.webkitTextStroke="0.5px red"
+        para.style.margin = "0 20px"
+        // para.style.fontFamily = "'Sofadi One', 'system-ui'";
+        heading.style.fontFamily = "'Courier New', 'system-ui'";
+        card.appendChild(para)
+
+        const pricecontainer = document.createElement('div')
+        pricecontainer.style.display="flex"
+        pricecontainer.style.alignItems="center"
+        // pricecontainer.style.justifyContent="space-evenly"
+        pricecontainer.style.gap="10px"
+        pricecontainer.style.marginLeft="35px"
+        card.appendChild(pricecontainer)
+
+        // const offer = document.createElement('h3')
+        // offer.innerText="Offer"
+        // offer.style.fontSize="24px"
+        // pricecontainer.appendChild(offer)
+
+        const price = document.createElement('h3')
+        price.innerText="Offer $50"
+        price.style.fontSize="24px"
+        price.style.color="transparent"
+        price.style.background="radial-gradient(circle at 48.7% 44.3%, rgb(30, 144, 231) 0%, rgb(56, 113, 209) 22.9%, rgb(38, 76, 140) 76.7%, rgb(31, 63, 116) 100.2%)"
+        price.style.backgroundClip="text"
+        pricecontainer.appendChild(price)
+
+        let a = 10
+        let b = 10
+        let c = 10
+        console.log(a===b===c);
+        
+        
+        const secprice = document.createElement('h3')
+        secprice.innerText="$100"
+        secprice.style.fontSize="24px"
+        secprice.style.color="transparent"
+        secprice.style.background="linear-gradient(180.3deg, rgb(221, 221, 221) 5.5%, rgb(110, 136, 161) 90.2%)"
+        secprice.style.backgroundClip="text"
+        secprice.style.textDecoration = "line-through solid grey 1px"
+        pricecontainer.appendChild(secprice)
+
+
+        const buy = document.createElement('button')
+        buy.innerText="BUY NOW";
+        buy.style.fontSize="20px";
+        buy.style.background="radial-gradient(circle at -0.6% 44.4%, rgb(142, 252, 152) 0%, rgb(107, 214, 250) 90%)";
+        buy.style.margin="0"
+        buy.style.color="white";
+        // buy.style.fontFamily = "'Courier New', 'system-ui'";
+        buy.style.border="none"
+        buy.style.borderRadius="10px"
+        buy.style.padding="8px 8px"
+        buy.style.marginLeft="65px"
+        pricecontainer.appendChild(buy)
+
+
+
+
+
+        
+    </script>
+</body>
+</html>
