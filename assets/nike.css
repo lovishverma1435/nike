@@ -17,8 +17,7 @@ p {
 }
 
 .swiper {
-    width: 100%;
-    height: 100%;
+   
 }
 
 .swiper-slide {
@@ -227,8 +226,9 @@ p {
 /* section1 */
 
 .main_flex {
+    margin: 40.15px 0 0 23px;
     display: flex;
-    align-items: center;
+    align-items: start;
     /* padding-top: 42.28px; */
     /* max-width: 926.18px; */
     width: 100%;
@@ -242,9 +242,7 @@ p {
     display: none;
 }
 
-.shoes_img {
-    margin-top: 42.28px;
-}
+
 
 .four_shoe {
     display: flex;
@@ -265,7 +263,7 @@ p {
 
 .nike_text {
     display: flex;
-    margin-top: 40.15px;
+   
     margin-bottom: 22.41px;
 }
 
@@ -537,6 +535,7 @@ p {
 
 .best_seller {
     display: flex;
+    flex-direction: column;
 }
 
 .best_img {
