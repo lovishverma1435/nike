@@ -222,19 +222,95 @@
             <!-- <div class="best_product"> -->
             <div class="best_seller">
                 <h4 class="best_text">BEST SELLER</h4>
-                <div class="best_img">
-                    <img class="best_shoeimg" src="assets/image/image Productsh.jpg" />
-                    <img class="ratestar" src="assets/image/ratestar.svg" />
-                    <div class="bestsell_price">
-                        <h4 class="best_price">$499</h4>
-                        <h4 class="best_oldprice">$599</h4>
+                <div class="swiper mySwiper4">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="best_img">
+                                <img class="best_shoeimg" src="assets/image/image Productsh.jpg" />
+                                <img class="ratestar" src="assets/image/ratestar.svg" />
+                                <div class="bestsell_price">
+                                    <h4 class="best_price">$499</h4>
+                                    <h4 class="best_oldprice">$599</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="best_img">
+                                <img class="best_shoeimg" src="assets/image/image Productsh.jpg" />
+                                <img class="ratestar" src="assets/image/ratestar.svg" />
+                                <div class="bestsell_price">
+                                    <h4 class="best_price">$499</h4>
+                                    <h4 class="best_oldprice">$599</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="best_img">
+                                <img class="best_shoeimg" src="assets/image/image Productsh.jpg" />
+                                <img class="ratestar" src="assets/image/ratestar.svg" />
+                                <div class="bestsell_price">
+                                    <h4 class="best_price">$499</h4>
+                                    <h4 class="best_oldprice">$599</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="best_img">
+                                <img class="best_shoeimg" src="assets/image/image Productsh.jpg" />
+                                <img class="ratestar" src="assets/image/ratestar.svg" />
+                                <div class="bestsell_price">
+                                    <h4 class="best_price">$499</h4>
+                                    <h4 class="best_oldprice">$599</h4>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <div class="swiper-pagination edit"></div>
                 </div>
+
+                <!-- Swiper JS -->
+                <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+                <!-- Initialize Swiper -->
+                <script>
+                    var swiper = new Swiper(".mySwiper4", {
+                        slidesPerView: 1,
+                        loop: true,
+                        autoplay: {
+                            delay: 1500,
+                            disableOnInteraction: false,
+                        },
+                        pagination: {
+                            el: ".swiper-pagination",
+                        },
+
+                        breakpoints: {
+                            350: {
+                                slidesPerView: 1,
+                            },
+                            400: {
+                                slidesPerView: 1,
+                            },
+                            500: {
+                                slidesPerView: 1,
+                            },
+                        },
+
+                    });
+
+                </script>
+
+
+
+
+
+
+
             </div>
 
-        
-        <!-- </div> -->
-        <!-- <div class="best_line">
+
+            <!-- </div> -->
+            <!-- <div class="best_line">
                     <div class="horiz_line"></div>
                     <div class="horiz_line"></div>
                     <div class="horiz_line"></div>
@@ -776,10 +852,10 @@
             loop: true,
             freeMode: true,
 
-            // autoplay: {
-            //     delay: 1500,
-            //     disableOnInteraction: false,
-            // },
+            autoplay: {
+                delay: 1500,
+                disableOnInteraction: false,
+            },
             pagination: {
                 el: ".swiper-pagination",
             },
